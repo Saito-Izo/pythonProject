@@ -1,0 +1,5 @@
+#Exercício Python 024: Crie um programa que leia o nome de uma cidade diga se ela começa ou não com o nome "SANTO".
+cidade = str(input('Em qual cidade você nasceu? '))
+cidade = cidade.strip().capitalize()
+
+print('Campo' in cidade)
